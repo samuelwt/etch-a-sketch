@@ -1,0 +1,6 @@
+#container {
+    display: flex;
+    background-color: bisque;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
