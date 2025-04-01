@@ -1,11 +1,12 @@
 #container {
     display: flex;
     background-color: white;
-    width: 429px;
+    width: 990px;
     /* 1px borders - borders don't overlap. 
-    one square div width == 27px
-    27px * 16 square divs in a row = 432px. 
-    - Actually to the left and right of the first and last divs ga ada border*/
+    one square div width == 62px
+    62px * 16 square divs in a row = 992px. 
+    - Actually to the left and right of the first and last divs ga ada border
+    992px-2px = 990px*/
     aspect-ratio: 1 / 1;
     flex-wrap:wrap;
 }
