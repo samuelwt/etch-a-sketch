@@ -1,6 +1,11 @@
 #container {
     display: flex;
-    background-color: bisque;
-    width: 50%;
+    background-color: white;
+    width: 429px;
+    /* 1px borders - borders don't overlap. 
+    one square div width == 27px
+    27px * 16 square divs in a row = 432px. 
+    - Actually to the left and right of the first and last divs ga ada border*/
     aspect-ratio: 1 / 1;
+    flex-wrap:wrap;
 }
